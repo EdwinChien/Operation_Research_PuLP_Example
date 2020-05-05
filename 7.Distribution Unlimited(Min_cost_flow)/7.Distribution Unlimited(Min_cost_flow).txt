@@ -1,0 +1,30 @@
+\* Distribution_Unlimited(Min_cost_flow) *\
+Minimize
+OBJ: 2 x_AB + 4 x_AC + 9 x_AD + 3 x_BC + x_CE + 3 x_DE + 2 x_ED
+Subject To
+_C1: x_AB + x_AC + x_AD <= 50
+_C2: x_AB - x_BC >= -40
+_C3: x_AC + x_BC - x_CE >= 0
+_C4: x_AD - x_DE + x_ED >= 30
+_C5: x_CE + x_DE - x_ED >= 60
+Bounds
+x_AB <= 10
+x_CE <= 80
+End
+
+¡° Optimal Result ¡°
+
+¡» Arc_AB Flow = 0
+
+¡» Arc_AC Flow = 40
+
+¡» Arc_AD Flow = 10
+
+¡» Arc_BC Flow = 40
+
+¡» Arc_CE Flow = 80
+
+¡» Arc_DE Flow = 0
+
+¡» Arc_ED Flow = 20
+

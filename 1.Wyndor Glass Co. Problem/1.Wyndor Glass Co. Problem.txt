@@ -1,0 +1,21 @@
+\* Wyndor Glass Co. Problem *\
+Maximize
+OBJ: 3000 x1 + 5000 x2
+Subject To
+_C1: x1 <= 4
+_C2: 2 x2 <= 12
+_C3: 3 x1 + 2 x2 <= 18
+Bounds
+x1 free
+x2 free
+End
+
+¡° Optimal Result ¡°
+
+¡» x1 = 2
+
+¡» x2 = 6
+
+
+x1 = batches of product 1 per week
+x2 = batches of product 2 per week

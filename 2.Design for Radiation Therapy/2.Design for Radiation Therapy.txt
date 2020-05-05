@@ -1,0 +1,18 @@
+\*  Design for Radiation Therapy *\
+Minimize
+OBJ: 0.4 x1 + 0.5 x2
+Subject To
+_C1: 0.3 x1 + 0.1 x2 <= 2.7
+_C2: 0.5 x1 + 0.5 x2 = 6
+_C3: 0.6 x1 + 0.4 x2 >= 6
+Bounds
+x1 free
+x2 free
+End
+
+¡° Optimal Result ¡°
+
+¡» x1 = 7.5
+
+¡» x2 = 4.5
+
